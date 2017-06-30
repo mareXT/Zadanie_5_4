@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap - Prosta Strona</title>
+
+		<!-- Bootstrap CSS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		
+		<!--NAV-->
+		<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Nawigacja</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Boot-test</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Odnośnik 1</a></li>
+						<li><a href="#">Odnośnik 2</a></li>
+						<li><a href="#">Odnośnik 3</a></li>
+					</ul>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Szukaj!</button>
+				</form>
+				</div>
+			</div>
+		</nav>
+		
+		<!--JUMBOTRON-->
+		<section class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<h1>Prosta strona<br><small>robiona w Bootstrapa</small></h1>
+					<button type="button" class="btn btn-primary">Niebieski Przycisk</button>
+				</div>
+			</div>
+		</section>
+		
+		<!--GALERIA-->
+		<section class="gallery">
+			<h2>Focięta</h2>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<img src="http://i.imgur.com/AGEgF5B.jpg" alt="biurku" class="img-responsive img-thumbnail">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<img src="http://i.imgur.com/7Ff7rDB.jpg" alt="woda" class="img-responsive img-thumbnail">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<img src="http://i.imgur.com/KUt6tGb.jpg" alt="płot" class="img-responsive img-thumbnail">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<img src="http://i.imgur.com/Ue2tUMV.jpg" alt="kawa" class="img-responsive img-thumbnail">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!--TABELA-->
+		<div class="container">
+		<div class="table-responsive">
+		  	<table class="table table-bordered table-hover">
+		    	<thead>
+			      <tr>
+			        <th>Imię</th>
+			        <th>Nazwisko</th>
+			        <th>e-mail</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr class="success">
+			        <td>Marek</td>
+			        <td>Strypling</td>
+			        <td>marek.strypling@gmail.com</td>
+			      </tr>
+			      <tr class="danger">
+			        <td>Seba</td>
+			        <td>Blocki</td>
+			        <td>hwdp@buziaczek.pl</td>
+			      </tr>
+			      <tr class="warning">
+			        <td>Adolf</td>
+			        <td>Potocki</td>
+			        <td>hanba@redtube.com</td>
+			      </tr>
+	    		</tbody>
+  			</table>
+		</div>
+		</div>
+		
+		<!--TO W SUMIE TO SAMO, CO GALERIA POWYŻEJ-->
+		<div class="thumbnail">
+		    <div class="row">
+		        <div class="col-xs-12 col-sm-6 col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+		        <div class="col-xs-12 col-sm-6 col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+		        <div class="col-xs-12 col-sm-6 col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+		        <div class="col-xs-12 col-sm-6 col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+		    </div>
+		</div>
+		
+		<!--MEDIA GROUP-->
+		<div class="media">
+	    	<div class="media-left">
+	        	<a href="#">
+	        		<img class="media-object img-responsive" src="http://i.imgur.com/4CTSMB0.jpg" alt="Zuza">
+	        	</a>
+	    	</div>
+	    	<div class="media-body">
+	        	<h4 class="media-heading">Wypowiedź</h4>
+	        	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam dolorum aliquam repellendus blanditiis, reiciendis repudiandae optio provident saepe, porro consectetur facilis sunt enim nesciunt labore id. Quae ipsa tempora a?</p>
+    		</div>
+		</div>
+		
+		<!--FORMULARZE KONTAKTOWE-->
+		<div class="form container">
+            <form>
+    			<div class="form-group">
+					<label for="exampleInputEmail">Email</label>
+        			<input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+    			</div>
+    			<div class="form-group">
+        			<label for="exampleInputTopic">Temat</label>
+        			<input type="text" class="form-control" id="exampleInputTopic" placeholder="Temat">
+    			</div>
+    			<div class="form-group">
+        			<label>Wiadomość</label>
+        			<textarea class="form-control" rows="5" placeholder="Pisz..."></textarea>
+    			</div>
+    			<button type="submit" class="btn btn-default">Wyślij</button>
+			</form>
+        </div>
+        
+        <!-- Trigger the modal with a button, KTÓREGO NIE POTRAFIĘ WYCENTROWAĆ NA TĘ CHWILĘ-->
+		
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Otwórz Modala</button>
+
+		<!-- Modal -->
+		<div id="myModal" class="modal fade" role="dialog">
+  			<div class="modal-dialog">
+
+    	<!-- Modal content-->
+    			<div class="modal-content">
+      				<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">&times;</button>
+        				<h4 class="modal-title">Nagłówek Modala</h4>
+      				</div>
+      				<div class="modal-body">
+        				<p>Jakiś zadziwiający tekst.</p>
+      				</div>
+      				<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+      				</div>      	
+    			</div>
+  			</div>
+		</div>
+        <div class="footer">
+        <p>&copy;2017 Ol rajt rizerwd</p>
+    	</div>
+	</body>
+</html>
